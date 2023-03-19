@@ -1,2 +1,2 @@
 # wordle
-play: https://uzal001.github.io/sudoku/
+play: https://uzal001.github.io/wordle/
