@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wordle</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-wrapper">
+            <div class="win">
+                <p class="msg">You Win.</p>
+                <p class="msg correct-word"></p>
+
+                <p class="reset"><span>↻</span> new game</p>
+            </div>
+
+            <div class="lost">
+                <p class="msg">You lost.</p>
+                <p class="msg correct-word"></p>
+                <p class="reset">start new game <span>↻</span> </p>
+            </div>
+
+            <div class="valid-check">
+                <p class="msg">word not found.</p>
+            </div>
+
+            <div class="game-board">
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+               <div class="word"></div>
+            </div>
+
+        </div>
+        <div class="keyboard">
+            <div class="keyboard-row">
+                <div class="keyword">Q</div>
+                <div class="keyword">W</div>
+                <div class="keyword">E</div>
+                <div class="keyword">R</div>
+                <div class="keyword">T</div>
+                <div class="keyword">Y</div>
+                <div class="keyword">U</div>
+                <div class="keyword">I</div>
+                <div class="keyword">O</div>
+                <div class="keyword">P</div>
+            </div>
+
+            <div class="keyboard-row">
+                <div class="keyword">A</div>
+                <div class="keyword">S</div>
+                <div class="keyword">D</div>
+                <div class="keyword">F</div>
+                <div class="keyword">G</div>
+                <div class="keyword">H</div>
+                <div class="keyword">J</div>
+                <div class="keyword">K</div>
+                <div class="keyword">L</div>
+            </div>
+
+            <div class="keyboard-row">
+
+                <div class="keyword">Z</div>
+                <div class="keyword">X</div>
+                <div class="keyword">C</div>
+                <div class="keyword">V</div>
+                <div class="keyword">B</div>
+                <div class="keyword">N</div>
+                <div class="keyword">M</div>
+                <div class="keyword back">Back</div>
+                <div class="keyword enter">Enter</div>
+            </div>
+        </div>
+    </div>
+    <script src="./wordle.js"></script>
+</body>
+</html>
